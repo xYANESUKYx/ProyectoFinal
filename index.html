@@ -1,12 +1,239 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <a href="zip.zip" download>
-    <button> xd</button>
-  </a>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PGC-GYM Landing Page</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Menu -->
+    <div class="menu">
+      <div class="container flex">
+        <!-- Mobile Button -->
+        <div class="mobile-btn">
+          <ion-icon name="grid"></ion-icon>
+        </div>
+        <div class="logo">
+          <img 
+            src="images/logo.png"
+            alt=""
+          />
+        </div>
+
+        <ul class="nav">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#explore">App</a></li>
+          <li class="nav-item"><a href="#trainer">Monitores</a></li>
+          <li class="nav-item"><a href="#testimonial">Opiniones</a></li>
+          <li class="nav-item"><a href="#discount">Visitanos</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container flex" style="margin-bottom: -50px;">
+        <div class="text">
+          <h1 class="mb" style="font-size: 60px; margin-top: -50px;">
+            ¿Estás listo para cumplir tus <span>objetivos</span>?
+          </h1>
+
+          <p class="mb">
+            En La Laguna Urban te ofrecemos una amplia variedad de máquinas y clases guiadas donde podrás conseguir tus metas. Con la ayuda de nuestros 
+            monitores el camino será mas facil que nunca. ¿A qué esperas? Ven a visitarnos!
+          </p>
+          <div class="redes-sociales" style="height: auto; margin-right: 10px; margin-top: -10px;">
+
+            <a style="width: 30px; height: 30px; z-index: 9999;" href="https://www.facebook.com/p/La-Laguna-Urban-Fitness-100050881971268/?locale=es_ES" target="_blank" style="z-index: 9999; display: inline-block;"><img src="images/fb.png" alt="" style="width: 30px; margin-right: 10px;"></a>
+            <a style="width: 30px; height: 30px; z-index: 9999;" href="https://www.instagram.com/lalagunaurbanfuncional/?hl=es" target="_blank" style="display: inline-block;"><img src="images/ins.png" alt="" style="z-index: 9999; width: 30px;"></a>
+        </div>
+        
+        </div>
+
+        <div class="visual">
+          <img
+            src="images/monitor.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- 
+    <div class="section" id="why-us">
+      <div class="container flex">
+        <div class="text">
+          <h2 class="primary mb">Why Choose Us?</h2>
+          <h3 class="secondary mb">Consulatation with Expert.</h3>
+          <p class="tertiary">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos
+            maxime tempore?
+          </p>
+
+          <h3 class="secondary mb">Consulatation with Expert.</h3>
+          <p class="tertiary">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos
+            maxime tempore?
+          </p>
+        </div>
+        <div class="visual">
+          <img
+            src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/why-us.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Explore -->
+    <div class="section" id="explore">
+      <div class="container flex">
+        <div class="visual">
+          <img style="margin-left: -10px; width: 500px;"
+            src="images/explore.png"
+            alt=""
+          />
+        </div>
+        <div class="text" style="margin-left: 100px;">
+          <h2 class="primary mb">
+            Descarga nuestra app <br />
+          </h2>
+          <p class="tertiary mb">
+            Con nuestro programa, podrás crear rutinas y dietas adaptadas a tu condición y objetivos. También podrás gestionar tu suplementación de forma rápida y sencilla. Descarga nuestro programa gratuito aquí.          </p>
+
+          <a  href="zip.zip" download class="btn mt">⇩  Descargar App</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Explore -->
+
+    <!-- Trainer -->
+    <div class="section" id="trainer">
+      <h2 class="primary mb" style="font-size: 50px; margin-top: 10px;">Conoce a nuestros entrenadores</h2>
+      <br/><br/><br/>
+      <div class="container flex">
+        <div class="trainer">
+          <img 
+            src="images/trainer1.png"
+            alt=""
+          />
+          <h3 class="secondary mb">Pedro Sanchez</h3>
+          <p class="tertiary mb" style="margin-top: -5px;">
+            Especialista en artes marxistas.
+          </p>
+
+          <a href="#" class="btn-2">
+            <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+          </a>
+        </div>
+
+        <div class="trainer" style="margin-left: 80px;">
+          <img
+            src="images/trainer2.png"
+            alt=""
+          />
+          <h3 class="secondary mb">Mia Khalifa</h3>
+          <p class="tertiary mb" style="margin-top: -5px;">
+            Técnica de powerlifting
+          </p>
+
+          <a href="#" class="btn-2">
+            <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+          </a>
+        </div>
+
+        <div class="trainer" style="margin-left: 80px;">
+          <img
+            src="images/trainer3.jpg"
+            alt=""
+          />
+          <h3 class="secondary mb">Hugo Ortiz</h3>
+          <p class="tertiary mb" style="margin-top: -5px;">
+            Maestro de las barras.
+          </p>
+
+          <a href="#" class="btn-2">
+            <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Trainer -->
+
+    <!-- Testimonial -->
+    <div class="section" id="testimonial">
+      <div class="container flex">
+        <div class="text">
+          <h2 class="primary" style="margin-top: -20px; text-align: center; margin-right: 30px;">
+            ¿Qué opinan nuestros clientes?
+          </h2>
+
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <div class="client">
+            <img 
+              src="images/client1.jpg"
+              alt=""
+            />
+            <h2 class="secondary">Exelente experiencia</h2>
+            <p class="tertiary" style="padding-left: 10px; padding-right: 10px;">
+                Instalaciones impecables y bien equipadas, buen ambiente, monitores atentos y amables. Sin duda, el mejor gimnasio de Tenerife.
+            </p>
+          </div>
+        </div>
+        <div class="visual">
+          <img style="margin-left: 80px;"
+            src="images/testimonial.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial -->
+
+    <!-- Discount -->
+    <div class="section" id="discount">
+      <div class="container flex" style="margin-bottom: 60px;">
+        <div style="text-align: center;">
+          <h2 style="margin-left: 55px; margin-bottom: 10px;">📍La Laguna Fitness</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7014.444355419494!2d-16.300791699999998!3d28.472854899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cdab39dd30a1%3A0xf378da403f83478f!2sLa%20Laguna%20Urban%20Fitness!5e0!3m2!1ses!2ses!4v1715361191441!5m2!1ses!2ses" width="400" height="300" style="border:0; margin-right: 100px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div style="text-align: center;">
+          <h2 style="margin-left: 265px; margin-bottom: 10px;">📍La Laguna Urban</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.0584719663193!2d-16.312676687974385!3d28.47778567564839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cd2015f133d9%3A0x55906edefbaef476!2sUrban%20Funcional!5e0!3m2!1ses!2ses!4v1715361289565!5m2!1ses!2ses" width="400" height="300" style="border:0; margin-left: 100px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- End Discount -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container flex">
+        <p class="tertiary">
+          &copy; 2024 Yanet López Rodríguez - Proyecto de integración
+        </p>
+      </div>
+    </footer>
+    
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
