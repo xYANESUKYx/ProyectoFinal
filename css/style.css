@@ -43,6 +43,10 @@ body {
   overflow: hidden;
 }
 
+.header::after{
+  width: 200px;
+}
+
 .header::after,
 .header::before,
 .section::after,
