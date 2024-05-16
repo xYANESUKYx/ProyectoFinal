@@ -149,6 +149,14 @@ Para ver los suplementos de nuestra dieta, podremos acceder a mañana, tarde o n
 
 
 
+<h2>Ajustes:</h2>
+En la ventana de ajustes podremos modificar el nombre, pero, altura, edad, sexo, porcentaje graso actual y el objetivo.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/e08b5fc1-3151-4aa7-9501-05f5b810e73b)
+
+Si pulsamos la imagen del porcentaje graso, el del objetivo o el actual, podremos modificarlo en la ventana de fisicos.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/97627d3a-f9ea-4049-b953-b4575c5de454)
 
 
 
@@ -157,6 +165,7 @@ En la ventana de configuración podremos editar nuestro nombre de usuario, cambi
 
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/577a10c4-9f63-416d-b6ad-13bcb8d31916)
 
+</br></br></br>
 
 <h2>¿Quiénes somos?:</h2>
 En esta ventana te hablamos sobre los gimnasios La Laguna Urban Fitness y  La Laguna Urban Funcional. Tambien te mostramos unos mapas te permiten explorar, moverte y hacer zoom en diferentes ubicaciones para una experiencia de navegación completa y personalizada.
