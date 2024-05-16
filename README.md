@@ -57,7 +57,51 @@ Para registrarnos primero insertaremos el nombre de usuario y contraseña, en la
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/e71df8aa-a322-459c-a580-157fe675ee77)
 
 
+En la pantalla de inicio podremos navegar a las ventanas de rutinas, dietas, suplementos, quienes somos y del perfil.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/049d1720-3b6a-4ecb-8b91-99d834378937)
 
 
+POST 
+DE
+USUARIOS
+PERFIL
+
+
+<h2>Rutinas:</h2>
+
+En la ventana de rutinas podremos ver nuestras rutinas, eliminarlas o crear rutinas nuevas.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/9510d665-4249-42f2-be28-1acac75b1cd3)
+
+Para crear una nueva rutina pulsaremos la tarjeta con el simbolo mas, despues deberemos elejir que mueculo queremo ejercitar, pierna, abdomen, brazos hombros, espalda o pecho.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/6712a161-75a2-4e1b-8c71-15a7cf428eb3)
+
+Se generara una rutina automaticamente, pero podremos cambiar los ejercicios que no nos gusten, cuando la rutina ya este como deseamos pulsaremos el boton guardar y le daremos un 
+nombre a nuestra rutina, debemos tener en cuenta que el nombre no este en uso en ninguna de nustras otras rutinas, si es así, nos lo notificara el programa.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/268d2cf0-9ad4-4e95-aa86-f20bbd8945e0)
+
+
+
+
+
+
+
+
+
+
+<h2>Dietas:</h2>
+
+En la ventana de dietas podremos ver nuestras dietas, eliminarlas o crear dietas nuevas.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/e21cec09-5964-4b2b-973c-d59b17d506cf)
+
+Para crear una nueva dieta pulsaremos la tarjeta con el simbolo mas, despues deberemos indicar el numero de comidas que queremos y las calorias totales de la dieta.
+
+
+Se generara una dieta automaticamente, pero podremos cambiar las comidas que no nos gusten, cuando la dieta ya este como deseamos pulsaremos el boton guardar y le daremos un 
+nombre a nuestra dieta, debemos tener en cuenta que el nombre no este en uso en ninguna de nustras otras dietas, si es así, nos lo notificara el programa.
 
 
