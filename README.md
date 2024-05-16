@@ -79,7 +79,6 @@ nombre a nuestra rutina, debemos tener en cuenta que el nombre no este en uso en
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/268d2cf0-9ad4-4e95-aa86-f20bbd8945e0)
 </br></br>
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/a60e6fab-c8e8-4d3c-b87e-e997dd1b9632)
-
 </br></br>
 En la ventana de rutinas tambien podremos eliminar las rutinas pulsando la esquina superior derecha de la tarjeta deseada.
 </br></br>
@@ -87,23 +86,21 @@ En la ventana de rutinas tambien podremos eliminar las rutinas pulsando la esqui
 </br></br>
 
 <h2>Dietas:</h2>
-
 En la ventana de dietas podremos ver nuestras dietas, eliminarlas o crear dietas nuevas.
+</br></br>
 
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/e21cec09-5964-4b2b-973c-d59b17d506cf)
-
+</br></br>
 Para crear una nueva dieta pulsaremos la tarjeta con el simbolo mas, despues deberemos indicar el numero de comidas que queremos y las calorias totales de la dieta.
-
+</br></br>
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/cb7a4632-36ed-4d77-92eb-03298d50ef88)
-
-
+</br></br>
 Se generara una dieta automaticamente, pero podremos cambiar las comidas que no nos gusten, cuando la dieta ya este como deseamos pulsaremos el boton guardar y le daremos un 
 nombre a nuestra dieta, debemos tener en cuenta que el nombre no este en uso en ninguna de nustras otras dietas, si es así, nos lo notificara el programa.
-
+</br></br>
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/9b6a2163-2569-4e1b-85bf-dbad8543873f)
 </br></br>
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/24112736-667d-4351-920f-b9aa23d1c394)
-
 </br></br>
 En la ventana de dietas tambien podremos eliminar las dietas pulsando la esquina superior derecha de la tarjeta deseada.
 </br></br>
@@ -136,6 +133,7 @@ Para ver los suplementos de nuestra dieta, podremos acceder a mañana, tarde o n
 <h2>Perfil:</h2>
 En la ventana de nuestro perfil verenos nuestras dietas y rutinas, desde aquí podemos eliminarlas, visualizarlas o cambiar su privacidad. Los posts que tengas como publicos los podán ver los demás usuarios en el inicio y en tu perfil. 
 </br></br>
+
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/7475c6e9-5f18-436a-9afc-19e62f84e8e6)
 
 </br></br>
@@ -148,8 +146,10 @@ Desde el perfil tambien podemos acceder a la ventana de avatares donde podemos m
 <h2>Posts del inicio:</h2>
 En la ventana de inicio podremos ver los post publicos de todos los uusuarios que usen el programa, podremos acceder a estos post y ver las rutinas y dietas y desde estos acceder al perfil de los usuarios y ver todos sus posts publicos, tambien podremos copiar susdietas y rutinas a nuestra cuenta desde el inicio o su perfil.
 </br></br>
+
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/0a149e3d-2bb3-48c3-a2fa-487f5e381fa7)
 </br></br>
+
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/0d1cf546-e25a-42c2-9de7-500002582443)
 </br></br>
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/b7a9a2e7-4db6-4e07-b62b-060838ea702a)
