@@ -100,8 +100,63 @@ En la ventana de dietas podremos ver nuestras dietas, eliminarlas o crear dietas
 
 Para crear una nueva dieta pulsaremos la tarjeta con el simbolo mas, despues deberemos indicar el numero de comidas que queremos y las calorias totales de la dieta.
 
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/cb7a4632-36ed-4d77-92eb-03298d50ef88)
+
 
 Se generara una dieta automaticamente, pero podremos cambiar las comidas que no nos gusten, cuando la dieta ya este como deseamos pulsaremos el boton guardar y le daremos un 
 nombre a nuestra dieta, debemos tener en cuenta que el nombre no este en uso en ninguna de nustras otras dietas, si es así, nos lo notificara el programa.
 
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/9b6a2163-2569-4e1b-85bf-dbad8543873f)
 
+
+
+
+
+
+
+
+<h2>Suplementos:</h2>
+
+En la ventana de suplementos tendremos un menu con las opciones de mañana, tarde, noche y la de añadir un nuevo suplemento a nuestra dieta.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/89021c9f-5ad2-468e-aa95-a54d7bd10e07)
+
+
+Si accedemos a la opción de añadir un nuevo suplemento veremos todos los suplementos disponibles con un ComboBox, este filtrará los suplementos segun sus efectos.
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/901b2072-8cf7-4ac2-ae47-76b1347cc731)
+
+Al seleccionar un suplemento veremos si ya lo tenemos en nuestra dieta o no, si lo tenemos en nuestra ditea el boton superior tendrá el simbolo - y al pulsarlo lo eliminará de nuestra dieta, si no lo tenemos en nuestra dieta el boton tendrá el simbolo + y al pulsarlo lo añadiremos en nuestra dieta. Tambien nos dirá una breve descripción, los efectos que tiene y los que no y las cantidades que debemos tomar en la mañana, tarde y noche. 
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/5fe36af3-5837-4bc1-8cb0-4f06b2c29742)
+
+Para ver los suplementos de nuestra dieta, podremos acceder a mañana, tarde o noche, aquí nos dirá los suplementos que nos debemos tomar en ese horario y la cantidad segun nuestro peso, sexo y edad.
+
+
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/58eab056-8765-4fa3-9b01-c968039e28e7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
