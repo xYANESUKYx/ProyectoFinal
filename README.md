@@ -21,6 +21,7 @@ Con LaLagunaUrbanApp, puedes crear, eliminar y editar rutinas de entrenamiento p
 Para poder instalar el programa necesitaras tener intalado una vercion de Java Runtime Environment igual o superior a la 1.8.0.
 En el siguiente enlace podrás acceder a el ejecutable: https://xyanesukyx.github.io/ProyectoFinal/
 
+![image-removebg-preview (41)](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/e5874149-f7df-4d97-8309-3e11aabff63a)
 
 <h2>Manual de uso:</h2>
 ![image](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/33d14761-7789-4aff-a6f9-9646c7dfe5c7)
