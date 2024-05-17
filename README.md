@@ -27,15 +27,16 @@ En el siguiente enlace podrás acceder a el ejecutable: https://xyanesukyx.githu
 
 <h2>Manual de uso:</h2>
 
-Primero accederemos al siguiente enlace en nuestro navegador https://xyanesukyx.github.io/ProyectoFinal/ y descargaremos el ejecutable
-de el programa.
+Primero accederemos al siguiente enlace en nuestro navegador https://xyanesukyx.github.io/ProyectoFinal/ y descargaremos el instalador
+del programa.
 </br></br>
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/842d2ce6-3c42-42cb-bf12-8004bcb7ec77)
 
-Vamos a la ubicación donde se ha descargado el zip, hacemos click derecho -> extraer todo.
+Vamos a la ubicación donde se ha descargado el zip, hacemos doble click en el instalador y seguimos el asistente.
 </br></br>
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/ec13c647-da70-4993-b92d-06af47f1228f)
-
+![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/d434a490-1ad8-40b0-9ede-3bd5bb1cdec4)
+</br></br>
 
 Y ya tendriamos intalado y listo para ejecutar nuestro programa. 
 </br></br>
