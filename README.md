@@ -38,10 +38,6 @@ Vamos a la ubicación donde se ha descargado el zip, hacemos doble click en el i
 ![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/d434a490-1ad8-40b0-9ede-3bd5bb1cdec4)
 </br></br>
 
-Y ya tendriamos intalado y listo para ejecutar nuestro programa. 
-</br></br>
-![Sin título](https://github.com/xYANESUKYx/ProyectoFinal/assets/93495032/8290f837-54d7-4f0f-b79f-34385eec5be0)
-
 
 <h2>Manual de uso:</h2>
 
