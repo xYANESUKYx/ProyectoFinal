@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="view" fitToHeight="true" fitToWidth="true" prefHeight="768.0" prefWidth="1366.0" styleClass="scrollPane" stylesheets="@../css/cssSupplements.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <BorderPane styleClass="borderPane" stylesheets="@../css/cssSupplements.css">
+         <top>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="userImage" fitHeight="50.0" onMouseClicked="#onGuardarClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../images/check3.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets right="80.0" top="140.0" />
+                     </GridPane.margin>
+                     <styleClass>
+                        <String fx:value="tarjet" />
+                        <String fx:value="round-image" />
+                     </styleClass>
+                  </ImageView>
+                  <ImageView fitWidth="50.0" onMouseClicked="#onBackClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet">
+                     <image>
+                        <Image url="@../images/back.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="70.0" top="142.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Circle fill="WHITE" radius="65.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <GridPane.margin>
+                        <Insets top="45.0" />
+                     </GridPane.margin>
+                  </Circle>
+                  <ImageView fitWidth="130.0" onMouseClicked="#onAvatarClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+                     <image>
+                        <Image url="@../images/avatares/avatar6.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </top>
+         <center>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="1100.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints vgrow="SOMETIMES" />
+                  <RowConstraints vgrow="SOMETIMES" />
+                  <RowConstraints vgrow="SOMETIMES" />
+                  <RowConstraints vgrow="SOMETIMES" />
+                <RowConstraints vgrow="SOMETIMES" />
+                  <RowConstraints vgrow="SOMETIMES" />
+              </rowConstraints>
+               <BorderPane.margin>
+                  <Insets bottom="40.0" top="210.0" />
+               </BorderPane.margin>
+               <children>
+                  <Label text="Nombre" textFill="#febc04" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label text="Actualidad" textFill="#febc04" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="30.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="pesoLabel" textFill="#febc04" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets right="40.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="grasaAlabel" textFill="#febc04" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets top="40.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="nombreTextField" focusTraversable="false" maxWidth="-Infinity" prefHeight="25.0" prefWidth="249.0" GridPane.columnIndex="1" GridPane.columnSpan="3">
+                     <GridPane.margin>
+                        <Insets left="120.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label text="Edad" textFill="#febc04" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="130.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="pesoTextField" focusTraversable="false" maxWidth="-Infinity" prefHeight="25.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="75.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label text="Peso" textFill="#febc04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="edadTextField" focusTraversable="false" maxWidth="-Infinity" prefHeight="25.0" prefWidth="65.0" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets left="205.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label text="Kg" textFill="#febc04" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="165.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Altura" textFill="#febc04" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets right="-40.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="alturaText" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="25.0" prefWidth="75.0" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="52.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label text="cm" textFill="#febc04" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="135.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Objetivo" textFill="#febc04" GridPane.columnIndex="3" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="30.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="10.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="pesoObjetivoLabel" textFill="#febc04" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="grasaOlabel" textFill="#febc04" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets top="40.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <ImageView fx:id="actualidadImage" fitHeight="170.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#onActualidadClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.rowSpan="4">
+                     <image>
+                        <Image url="@../images/fisico/H-2.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="40.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="objetivoImage" fitHeight="170.0" onMouseClicked="#onObjetivoClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.rowSpan="4">
+                     <image>
+                        <Image url="@../images/fisico/H-6.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets right="40.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="hombreImage" fitHeight="35.0" fitWidth="43.0" onMouseClicked="#onHClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../images/MALE.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="-5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="mujerImage" fitHeight="35.0" fitWidth="43.0" onMouseClicked="#onMClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../images/FEMALE.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets right="40.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Label fx:id="pesoLabel1" textFill="#febc04" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </content>
+</ScrollPane>

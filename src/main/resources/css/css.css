@@ -1,0 +1,50 @@
+.main {
+    -fx-background-image: url('/images/logo.png');
+    -fx-background-color: black;
+    -fx-background-size: 50% auto;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+ }
+ 
+
+
+.textField {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+    -fx-padding: 10px 0;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0; 
+    -fx-border-style: solid;
+    -fx-outline: none;
+    -fx-prompt-text-fill: white;
+}
+
+.login{
+    -fx-background-image: url('../images/backLogin2.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    -fx-background-position: center; /* Para centrar la imagen */
+    -fx-background-color: black;
+	
+}
+
+.dieta{
+    -fx-background-image: url('../images/dietaBack.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover; /* Para que la imagen cubra todo el contenedor */
+    -fx-background-position: center; /* Para centrar la imagen */
+    -fx-background-color: black;
+	
+}
+
+.login-box{    
+	-fx-background-color: transparent; /* Color de fondo */
+    -fx-border-color: #ccc; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-border-radius: 5px; /* Radio de borde */
+    -fx-padding: 10px; /* Relleno interno */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0); /* Efecto de sombreado */
+}
+ 

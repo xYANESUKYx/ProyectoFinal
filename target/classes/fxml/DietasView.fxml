@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="view" fitToHeight="true" fitToWidth="true" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: linear-gradient(to left,  #0e0e0e 30%, #142d2a);" styleClass="scrollPane" stylesheets="@../css/cssSupplements.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <BorderPane style="-fx-background-color: #101817;" styleClass="borderPane" stylesheets="@../css/cssSupplements.css">
+         <top>
+            <GridPane style="-fx-background-color: linear-gradient(to right, #0e0e0e 30%, #142d2a);" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="80.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="logoImage" fitHeight="45.0" onMouseClicked="#onInicioClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet">
+                     <image>
+                        <Image url="@../images/logoInicio.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="70.0" top="5.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Circle fill="WHITE" radius="25.0" stroke="WHITE" strokeType="INSIDE" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets right="90.0" top="5.0" />
+                     </GridPane.margin>
+                  </Circle>
+                  <ImageView fx:id="userImage" fitWidth="50.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#onUserClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../images/avatares/avatar1.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets right="90.0" top="9.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="80.0" prefWidth="811.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="RIGHT">
+                     <children>
+                        <Label onMouseClicked="#onInicioClicked" styleClass="tarjet" text="Home" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label onMouseClicked="#onRutinaClicked" styleClass="tarjet" text="Rutinas" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label onMouseClicked="#onDietaClicked" style="-fx-border-color: #fcd55b; -fx-border-width: 0 0 2 0;" styleClass="tarjet" text="Dietas" textFill="#fcd55b">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label onMouseClicked="#onSuplementosClicked" styleClass="tarjet" text="Suplementos" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="nombreLabel" onMouseClicked="#onUserClicked" styleClass="tarjet" text="Pedro Sanchez" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <GridPane.margin>
+                        <Insets right="170.0" />
+                     </GridPane.margin>
+                  </HBox>
+               </children>
+            </GridPane>
+         </top>
+         <bottom>
+            <VBox alignment="CENTER" style="-fx-background-color: linear-gradient(to right, #0e0e0e 30%, #142d2a);" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <children>
+                  <Label prefHeight="55.0" prefWidth="303.0" text="© 2024 Yanet López Rodríguez - Proyecto de integración" textFill="WHITE">
+                     <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+         </bottom>
+         <center>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ScrollPane fx:id="scrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="800.0" style="-fx-background-color: #101817;" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                     <content>
+                        <AnchorPane fx:id="anchorPane" maxHeight="-Infinity" minWidth="800.0" prefHeight="300.0" style="-fx-background-color: #101817;">
+                           <children>
+                              <GridPane fx:id="gridpane" prefHeight="299.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints />
+                                    <ColumnConstraints />
+                                    <ColumnConstraints hgrow="SOMETIMES" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+                  <ImageView fitWidth="60.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#onRightClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../images/back.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitWidth="60.0" onMouseClicked="#onLeftClicked" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.halignment="RIGHT">
+                     <image>
+                        <Image url="@../images/back.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </ImageView>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </content>
+</ScrollPane>

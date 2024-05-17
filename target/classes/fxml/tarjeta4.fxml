@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="250.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="200.0" stylesheets="@../css/cssTarjet.css">
+         <children>
+             <ImageView fx:id="imageView" fitHeight="250.0" preserveRatio="true" styleClass="tarjet">
+               <image>
+                  <Image url="@../images/rutinaT.png" />
+               </image>
+               <VBox.margin>
+                  <Insets top="-28.0" />
+               </VBox.margin>
+            </ImageView>
+              <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" style="-fx-font-size: 26px; -fx-font-weight: bold;" text="RUTINOTA">
+               <font>
+                  <Font name="Candara Bold" size="28.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="-65.0" />
+               </VBox.margin>
+            </Label>
+             <StackPane />
+         </children>
+         <VBox.margin>
+            <Insets top="-210.0" />
+         </VBox.margin>
+      </VBox>
+      <ImageView fitHeight="29.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true" styleClass="tarjet">
+         <image>
+            <Image url="@../images/menuDieta.png" />
+         </image>
+         <VBox.margin>
+            <Insets left="150.0" top="-235.0" />
+         </VBox.margin>
+      </ImageView>
+   </children>
+</VBox>

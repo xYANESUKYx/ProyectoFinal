@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="800.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="800.0" style="-fx-background-color: white;">
+         <children>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="800.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                   <ImageView fx:id="imageView" fitHeight="90.0" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/comida.jpg" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="30.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Label fx:id="labelComida" contentDisplay="CENTER" style="-fx-font-size: 26px; -fx-font-weight: bold;" text="Desayuno">
+                     <font>
+                        <Font name="Candara" size="28.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="190.0" top="-37.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label fx:id="labelComidas" text="200gr Merluza + 40gr Patatas" GridPane.columnSpan="2">
+                     <GridPane.margin>
+                        <Insets left="190.0" top="40.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="imageRefresh" fitHeight="30.0" preserveRatio="true" styleClass="imageclass" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <image>
+                        <Image url="@../images/refreshDieta.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets right="60.0" top="20.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="imageMenu" fitHeight="30.0" preserveRatio="true" styleClass="imageclass" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+                     <image>
+                        <Image url="@../images/menuDieta.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets right="20.0" top="20.0" />
+                     </GridPane.margin>
+                  </ImageView>
+               </children>
+            </GridPane>
+             <StackPane />
+         </children>
+      </HBox>
+   </children>
+</VBox>

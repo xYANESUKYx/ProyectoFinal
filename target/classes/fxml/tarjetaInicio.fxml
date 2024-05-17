@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="800.0" style="-fx-background-color: transparent;" stylesheets="@../css/cssTarjet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: white;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="600.0" />
+          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="113.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/esquinasT.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets bottom="3.0" left="-45.0" />
+               </GridPane.margin>
+            </ImageView>
+            <Circle fill="WHITE" radius="40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0">
+               <GridPane.margin>
+                  <Insets left="25.0" />
+               </GridPane.margin>
+            </Circle>
+             <ImageView fx:id="imageView" fitHeight="70.0" preserveRatio="true">
+               <image>
+                  <Image url="@../images/avatares/avatar1.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets left="30.0" top="5.0" />
+               </GridPane.margin>
+            </ImageView>
+              <Label fx:id="nameLabel" contentDisplay="CENTER" style="-fx-font-size: 25px; -fx-font-weight: bold;" text="Nombre">
+               <font>
+                  <Font name="Candara Bold" size="28.0" />
+               </font>
+               <padding>
+                  <Insets top="2.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets left="120.0" />
+               </GridPane.margin>
+            </Label>
+            <ImageView fx:id="imagePrivate" fitHeight="35.0" pickOnBounds="true" preserveRatio="true" styleClass="tarjet" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../images/like.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets right="50.0" top="-5.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="113.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+               <image>
+                  <Image url="@../images/esquinasT.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets bottom="3.0" right="-46.0" />
+               </GridPane.margin>
+            </ImageView>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </GridPane>
+       <StackPane style="-fx-background-color: black;" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="50.0" right="50.0" top="10.0" />
+   </padding>
+</HBox>

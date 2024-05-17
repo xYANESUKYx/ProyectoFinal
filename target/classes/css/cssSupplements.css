@@ -1,0 +1,77 @@
+.user-image{
+    -fx-background-color: white; /* Define un fondo blanco */
+    -fx-border-radius: 50%; /* Hace que el borde de la imagen sea redondeado */
+    -fx-background-radius: 50%;
+	 }
+	
+	
+	
+.borderPane {
+    -fx-background-color: black;
+}
+
+.no-header .column-header-background {
+    -fx-background-color: transparent;
+}
+
+/* Estilo para el contenedor de la TableView */
+.table-view-container {
+    -fx-background-color: transparent; /* Hacer transparente el fondo */
+    -fx-padding: 0px; /* Eliminar el espaciado interior */
+    -fx-alignment: center;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+/* Estilo para las filas de la TableView */
+.table-row-cell {
+    -fx-background-color: transparent; /* Hacer transparente el fondo de las filas */
+    -fx-border-width: 0; /* Eliminar el borde */
+    -fx-padding: 5px 0px 5px 0px; /* Ajustar el espaciado vertical entre filas */
+}
+
+/* Estilo para las celdas de la TableView */
+.table-cell {
+    -fx-padding: 0px 10px; /* Ajustar el espaciado horizontal entre columnas */
+    -fx-text-fill: #333; /* Color del texto */
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+}
+
+
+/* Estilo para eliminar las líneas de separación entre columnas */
+.table-column {
+    -fx-padding: 5px 5px 5px 25px;
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px; 
+}
+
+.table-row-cell {
+-fx-min-height: 65px;
+-fx-max-height: 65px;
+    -fx-font-size: 80px; 
+}
+
+.table-column-header {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+#tableView .column-header {
+    -fx-background-color: transparent;
+}
+
+
+
+.tarjet:hover {
+    -fx-border: blue solid 2px;
+    -fx-opacity: 0.5 !important;
+    
+}
